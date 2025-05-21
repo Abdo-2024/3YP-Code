@@ -1,0 +1,13 @@
+# Python virtual envs
+.venv/
+myenv/
+attempt1/myenv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Compiled extensions & large models
+*.so
+*.stl
+*.obj
