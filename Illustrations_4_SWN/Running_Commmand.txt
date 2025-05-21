@@ -1,0 +1,10 @@
+cd SWN
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j12 # or however many cores you want to use
+./bin/main --c=/home/a/Documents/3YP/Code/attempt6-pyvista/error_loops.obj
+
+
+cd /home/a/Documents/3YP/Code/no4/SWN/build
+./bin/main /home/a/Documents/3YP/Code/attempt6-pyvista/Samples/STL/2x2_NEW_MN.stl --c=/home/a/Documents/3YP/Code/attempt6-pyvista/error_loops_tube.obj
+
