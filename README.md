@@ -47,33 +47,33 @@ The most complete of folder and the one containing the code that I used for my r
 small note all illustrations are attempts to get the SWN algorithm to work on my computer, and I was struggling getting ortools to work. 
 Refernce for SWN at the end in Requirements  
 
-Code/
-├── attempt1/
+/home/a/Documents/3YP/Code
+├── attempt1
 │   ├── Microneedle_Array_Generator2.py
 │   ├── Microneedle_Array_Generator3.py
-│   ├── Spot (Incoherent Irradiance) Polarized.png
-│   ├── Test2.ipynb
+│   ├── myenv
+│   ├── 'Spot (Incoherent Irradiance) Polarized.png'
 │   ├── Test.ipynb
-│   └── myenv/
-├── attempt2/
+│   └── Test2.ipynb
+├── attempt2
 │   ├── 2x2_MN_Array_scaled.stl
 │   ├── combined_deformed2.stl
 │   ├── combined_deformed_dragon.stl
 │   ├── combined_scaled_dragon.stl
 │   ├── Deformation_Detection_and_Analysis.py
 │   ├── Error_Assignment_4.py
-│   ├── Error_assignments_attempts/
+│   ├── Error_assignments_attempts
 │   ├── Noise_RDS_2.py
 │   ├── Noise_RDS_3.py
-│   ├── Other STLs/
-│   ├── Other tests/
-│   ├── __pycache__/
 │   ├── parameters.py
 │   ├── poison_dragon_.stl
 │   ├── Scaling.py
+│   ├── __pycache__
 │   ├── sphere_data.csv
-│   └── sphere_data_detection.csv
-├── attempt3/
+│   ├── sphere_data_detection.csv
+│   ├── 'Other STLs'
+│   └── 'Other tests'
+├── attempt3
 │   ├── 1250_polygon_sphere_100mm.STL
 │   ├── 1.scad
 │   ├── 2x2_MN_Array_scaled.stl
@@ -82,89 +82,80 @@ Code/
 │   ├── 2x2_MN_Array_scaled_minusSpheres.stl
 │   ├── Consistency_test.py
 │   ├── deformed_spheres.stl
-│   ├── Error_Assignment.py
 │   ├── Error_Assignment2.py
-│   ├── Error_Assignment_Auto.py
 │   ├── Error_Assignment_Auto2.py
 │   ├── Error_Assignment_Auto3.py
 │   ├── Error_Assignment_Auto4.py
 │   ├── Error_Assignment_Auto5.py
 │   ├── Error_Assignment_Auto6.py
 │   ├── Error_Assignment_Auto7.py
+│   ├── Error_Assignment_Auto.py
+│   ├── Error_Assignment.py
+│   ├── 'import trimesh.py'
+│   ├── 'import trimesh2.py'
+│   ├── 'import trimesh3.py'
+│   ├── 'import trimesh4.py'
+│   ├── 'import trimesh5.py'
+│   ├── 'import trimesh6.py'
+│   ├── 'import trimesh7.py'
+│   ├── modified_model_with_holes.stl
 │   ├── Noise_RDS_2.py
 │   ├── Noise_RDS_3.py
 │   ├── Noise_RDS_3.S.py
-│   ├── Scaling.py
-│   ├── Subtraction.py
-│   ├── Testing_subtratcion.2.py
-│   ├── testing_subtraction.py
-│   ├── '# Randomaly Generated errors.py'
 │   ├── error_detection_barplot.png
-│   ├── error_models/
-│   ├── import trimesh.py
-│   ├── import trimesh2.py
-│   ├── import trimesh3.py
-│   ├── import trimesh4.py
-│   ├── import trimesh5.py
-│   ├── import trimesh6.py
-│   ├── import trimesh7.py
-│   ├── modified_model_with_holes.stl
-│   ├── output_stls/
+│   ├── error_models
+│   ├── output_stls
+│   ├── Scaling.py
 │   ├── sphere_data.csv
 │   ├── sphere_data_detection.csv
+│   ├── Subtraction.py
+│   ├── testing_subtraction.py
+│   ├── Testing_subtratcion.2.py
+│   ├── test.ipynb
 │   ├── swiss_cheese_model.stl
 │   ├── swiss_cheese_model2.stl
 │   ├── swiss_cheese_model3.stl
 │   ├── swiss_cheese_model5.stl
-│   ├── test.ipynb
-│   ├── venv/
-│   └── venv310/
-├── attempt4/
+│   ├── venv
+│   └── venv310
+├── attempt4
 │   ├── 2x2_MN_Array_scaled.stl
-│   ├── import pymesh.py
+│   ├── 'import pymesh.py'
 │   ├── Noise_RDS_2.py
 │   ├── Noise_V2.py
-│   ├── output_stls/
-│   ├── PyMesh/
+│   ├── output_stls
+│   ├── PyMesh
 │   ├── Scaling.py
-│   └── venv/
-├── attempt5/
-│   └── PyMesh/
-├── **attempt6-pyvista**/
-│   ├── Accuracy code/
-│   ├── Completed Error_detection_code/
-│   ├── CSV/
-│   ├── env/
-│   ├── Figures/
-│   ├── Flexure_Topology/
-│   ├── mesh_output/
-│   ├── oct_slices_output/
-│   ├── Other Code/
-│   ├── Samples/
-│   └── voxel_output (output from code in folder other code for intensity scan)/
-├── Illustrations_SWN/        # SWN code
-│   └── SWN/
-├── Illustrations_2_SWN/      # SWN code
-│   ├── or-tools_amd64_fedora-39_cpp_v9.11.4210
-│   ├── or-tools_amd64_fedora-39_cpp_v9.11.4210.tar.gz
-│   └── SWN/
-├── Illustrations_3_SWN/      # SWN code
-│   └── SWN/
-├── Illustrations_4_SWN/      # SWN code
-│   ├── Running_Commmand.txt
-│   └── SWN/
-├── Matlab/
-│   └── Propagation.m
-├── SD-OCT/
-│   ├── DeltaR.py
-│   ├── R1vsR2.py
-│   ├── SD-OCT_SIM_Book.py
-│   ├── SD-OCT_SIM.py
-│   ├── T1.py
-│   ├── test.py
-│   └── venv/
-├── SD-OCT_SIM/               # (merged into SD-OCT above)
-└── Part Studio 1.stl
+│   └── venv
+├── attempt5
+│   └── PyMesh
+├── attempt6-pyvista
+│   ├── 'Accuracy code '
+│   ├── 'Completed Error_detection_code'
+│   ├── CSV
+│   ├── env
+│   ├── Figures
+│   ├── Flexure_Topology
+│   ├── mesh_output
+│   ├── oct_slices_output
+│   ├── 'Other Code'
+│   ├── Samples
+│   └── 'voxel_output (output from code in folder other code for intensity scan)'
+├── Illustrations_2_SWN
+├── Illustrations_3_SWN
+├── Illustrations_4_SWN
+├── Illustrations_SWN
+├── Matlab
+├── 'Part Studio 1.stl'
+└── SD-OCT
+    ├── DeltaR.py
+    ├── R1vsR2.py
+    ├── SD-OCT_SIM_Book.py
+    ├── SD-OCT_SIM.py
+    ├── T1.py
+    ├── test.py
+    └── venv
+
 
 
 ## Requirements
