@@ -46,7 +46,7 @@ The most complete of folder and the one containing the code that I used for my r
 
 small note all illustrations are attempts to get the SWN algorithm to work on my computer, and I was struggling getting ortools to work. 
 Refernce for SWN at the end in Requirements  
-
+```
 /home/a/Documents/3YP/Code
 ├── attempt1
 │   ├── Microneedle_Array_Generator2.py
@@ -155,13 +155,14 @@ Refernce for SWN at the end in Requirements
     ├── T1.py
     ├── test.py
     └── venv
-
+```
 
 
 ## Requirements
 
 * Python 3.x
 * For SWN refer to:
+```
 @article{Feng:2023:WND,
     author = {Feng, Nicole and Gillespie, Mark and Crane, Keenan},
     title = {Winding Numbers on Discrete Surfaces},
@@ -177,7 +178,7 @@ Refernce for SWN at the end in Requirements
     journal = {ACM Trans. Graph.},
     month = {jul},
     articleno = {36}
-
+```
 ## Owner
 * \[AbdoAllah Mohammad]
 
