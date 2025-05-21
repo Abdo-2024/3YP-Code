@@ -1,6 +1,5 @@
 # 3YP-Code
-This Contains all the code I used for my 3YP project, I apologies it is a little messy.
-(Topology code might be missing I am not sure if I did it on windows)
+This Contains all the code I used for my 3YP project.
 
 ---
 
