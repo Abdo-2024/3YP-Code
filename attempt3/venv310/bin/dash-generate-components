@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/a/Documents/Obsidian Vault/Oxford/3rd Year/3YP - 3D Printer Nano Project/Experiments/Code/attempt3/venv310/bin/python3.10" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from dash.development.component_generator import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
